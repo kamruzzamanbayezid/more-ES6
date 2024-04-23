@@ -24,7 +24,37 @@ class Teacher {
 }
 
 const taposh = new Teacher('Taposh', 'English');
-console.log(taposh);
+// console.log(taposh);
 
 const joynal = new Teacher('Joynal', 'ICT');
-console.log(joynal);
+// console.log(joynal);
+
+class Player {
+
+      constructor(name, profession, age) {
+            this.name = name;
+            this.profession = profession;
+            this.age = age;
+      };
+
+      country = 'Bangladesh';
+}
+
+const sakib = new Player('Sakib', 'Cricketer', 35);
+const musfiq = new Player('Musfiq', 'Hockey', 32);
+const mehedi = new Player('Mehedi', 'Footballer', 25);
+
+// console.log(sakib);
+// console.log(musfiq);
+// console.log(mehedi);
+
+class Developer{ 
+      constructor(name,age,profession){ 
+            this.name=name;
+            this.age=age;
+            this.profession=profession;
+      };
+}
+
+const bayezid = new Developer('Kamruzzaman Bayezid', 24, 'Web Developer');
+console.log(bayezid);

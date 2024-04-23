@@ -5,16 +5,16 @@ function doubled(number) {
       return number * 2;
 }
 const result = numbers.map(doubled);
-console.log(result);
+// console.log(result);
 
 // option 2
 const doubled2 = number2 => number2 * 2;
 const result1 = numbers.map(doubled2);
-console.log(result1);
+// console.log(result1);
 
 // option 3
 const result2 = numbers.map(number2 => number2 * 2);
-console.log(result2);
+// console.log(result2);
 
 // map recap
 
@@ -24,14 +24,14 @@ function persons(name) {
       return name * 10;
 }
 const output = arr.map(persons);
-console.log(output);
+// console.log(output);
 
 const persons2 = name => name * 10;
 const output2 = arr.map(persons2);
-console.log(output2);
+// console.log(output2);
 
 const output3 = arr.map(name => name * 10);
-console.log(output3);
+// console.log(output3);
 
 
 const friends = ['salam', 'kashem', 'halima', 'rahmatullah'];
@@ -40,7 +40,23 @@ const elementLength = friends.map(friend => {
       const length = friend.length;
       return length;
 });
-console.log(elementLength);
+// console.log(elementLength);
 
-const firstLetter = friends.map(friend=>friend[0]);
-console.log(firstLetter);
+const firstLetter = friends.map(friend => friend[0]);
+// console.log(firstLetter);
+
+let arr2 = [3, 4, 5, 6];
+
+// for (let i = 0; i < arr2.length; i++) {
+//       arr2[i] = arr2[i] * 3;
+// };
+
+// console.log(arr2);
+
+// now join the value of firstname and last name
+let users = [
+      { firstName: "Susan", lastName: "Steward" },
+      { firstName: "Daniel", lastName: "Longbottom" },
+      { firstName: "Jacob", lastName: "Black" }
+];
+

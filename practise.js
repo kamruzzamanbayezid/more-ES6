@@ -83,3 +83,7 @@ let data2 = {
 
 console.log(data2.data[0].bookDetails.name);
 console.log(data2.data[1].bookCategory);
+
+// console.log(data2.data[0].bookDetails.name);
+// const category = data2.data.find(category => category.bookCategory === 'Beginner');
+// console.log(category.bookCategory);
