@@ -18,5 +18,32 @@ class Bus extends vehicle {
 }
 
 const bus = new Bus('Hanif', 10000, 'Volvo', 'Japan');
-bus.move('Shosur')
-console.log(bus);
+// bus.move('Shosur')
+// console.log(bus);
+
+
+class Animal {
+      constructor(name, age) {
+            this.name = name;
+            this.age = age;
+      }
+
+      speak() {
+            console.log(`${this.name} is a dangerous animal`);
+      }
+};
+
+class Bird extends Animal {
+      constructor(name, age, sound, color) {
+            super(name, age)
+            this.sound = sound
+            this.color = color
+      }
+}
+
+const owl = new Bird('Owl', 22, 'Gogo', 'black');
+owl.speak();
+console.log(owl);
+const Bador = new Bird('Bador', 32, 'Bobo', 'brown');
+Bador.speak();
+console.log(Bador);
